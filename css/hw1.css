@@ -1,6 +1,7 @@
 header {
     background-color: #FFFFFF;
     background-image: url(../images/flywheel.jpg);
+    background-size: 100%;
     padding: 1%;
 }
 
@@ -65,3 +66,44 @@ nav > a.active {
     width: 70%;
     float: left;
 }
+
+table {
+    background-color: #69D9FF;
+    color: #990033;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid #FFFFFF;
+    padding: 2%;
+    border-radius: 2px;
+}
+
+td:first-child, th:first-child {
+    text-align: left;
+}
+
+tr {
+    opacity: 0.6;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+tr:first-child {
+    color: #FFFFFF;
+    background-color: #0099CC;
+    font-family: "Times New Roman", Georgia, Serif;
+    background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, blue); /* Standard syntax */
+    opacity: 1;
+}
+
